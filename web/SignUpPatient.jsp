@@ -17,19 +17,20 @@
         <!-- Register Form -->
         <div class="form-wrapper">
             <!-- Form-wrapper only for positioning -->
-            <form action="#non" method="post" class="fcorn-register container">
+            <form action="signUpPatientCode.jsp" method="post" class="fcorn-register container">
                 <p class="register-info">Note: All fields are required.</p>
                 <div class="row">
                     <p class="col-md-6"><input type="text" name="firstName" placeholder="First Name" required></p>
                     <p class="col-md-6"><input type="text" name="lastName" placeholder="Last Name" required></p>
                 </div>
-                <p><input type="email" name="email" placeholder="Email Address" required>
+                <div class="row">
+                    <p class="col-md-6"><input type="text" name="aadhar" placeholder="Aadhar Card Number" required></p>
+                    <p class="col-md-6"><input type="text" name="contact" placeholder="Contact Number" required></p>
+                </div>
+<!--                <p><input type="text" name="aadhar" placeholder="Aadhar Card Number" required>
                     <span class="extern-type">We'll keep this private.</span>
-                </p>
-                <p><input type="password" name="password" placeholder="Password" required>
-                    <span class="extern-type">Atleast 8 characters long.</span>
-                </p>
-                <p><input type="password" name="verifyPassword" placeholder="Verify Password" required></p>
+                </p>-->
+                
                 <div class="row">
                     <p class="col-md-4"><input type="text" name="date" placeholder="Day (dd)" required></p>
                     <p class="col-md-4"><input type="text" name="month" placeholder="Month (mm)" required></p>
@@ -38,7 +39,7 @@
                 </div>
                 <div class="row">
                     <p class="col-md-6 city-wrap">
-                        <select>
+                        <select name="District">
                             <option name="city" value="0" selected disabled>City</option>
                             <option name="cityIndore" value="1">Indore</option>
                             <option name="cityBhopal" value="2">Bhopal</option>
@@ -50,7 +51,7 @@
                     </p>
                     <p class="col-md-6 country-wrap">
                         <!-- Add more country name -->
-                        <select>
+                        <select name="city">
                             <option name="town" value="0" selected disabled>Town</option>
                             <option name="townSanavad" value="1">Sanavad</option>
                             <option name="townSaugor" value="2">Saugor</option>
@@ -58,9 +59,11 @@
                             <option name="townManawar" value="4">Manawar</option>
                         </select>
                     </p>
-                    <p class="col-md-6 specialty-wrap">
-                        <select>
-                            <option name="specialty" value="0" selected disabled>Specialty</option>
+                    
+                        
+                        <p class="col-md-6 specialty-wrap">
+                        <select name="specialityReq">
+                            <option name="specialty" value="0" selected disabled>Specialty Required</option>
                             <option name="specialtyCardiology" value="1">Cardiology</option>
                             <option name="specialtyOncology" value="2">Oncology </option>
                             <option name="specialtyNeurology" value="3">Neurology</option>
@@ -72,7 +75,7 @@
                             <option name="specialtyDentist" value="9">Dentist</option>
                         </select>
                         <p class="col-md-6 language-wrap">
-                            <select>
+                            <select name="lang">
                                 <option name="language" value="0" selected disabled>Language</option>
                                 <option name="languageEnglish" value="1">English</option>
                                 <option name="languageHindi" value="2">Hindi</option>
@@ -86,29 +89,20 @@
 
                             <p class="col-md-4"><input name="bloodPressure" type="number" placeholder="Blood Pressure" required></p>
 
-                            <p class="col-md-6">
-                                <form>
-                                    Upload your medical Report:
-                                    <input type="file" name="medicalReport" id="medicalReport">
-                                    <input type="submit" value="Upload Image" name="submitReport" required>
-                                
-                            </p>
-
-                            <p class="col-md-6">
-                                <form action="upload.php" method="post" enctype="multipart/form-data">
-                                    Upload your personal photo:
-                                    <input type="file" name="photo" id="photo">
-                                    <input type="submit" value="Upload Image" name="submitPhoto" required>
-                                    <span class="extern-type">Current Image of Patient</span>
-                                
-                            </p>
+                            
+                            
 
                             <p class="col-xs-6"><input type="number" name="sugarLevel" placeholder="Enter your Sugar Level" required></p>
 
                             <p class="col-xs-6"><input type="number" name="bloodLevel" placeholder="Enter your Blood Level" required></p>
 
-                        </p>    
-                    </p>
+                            <p><input type="text" name="other" placeholder="Any other information that you want to give us" required>
+                    <span class="extern-type">We'll keep this private.</span>
+                </p>
+                               <p><input type="password" name="password" placeholder="Password" required>
+                    <span class="extern-type">Atleast 8 characters long.</span>
+                </p>
+                <p><input type="password" name="verifyPassword" placeholder="Verify Password" required></p>
                 </div>
                 <p class="register-toggle">
                     <label for="register-agree" class="toggle-label" data-on="YES" data-off="NO">

@@ -29,7 +29,7 @@
                 <nav>
                     <a href="#">home</a>
                     <a href="doctorRegistrationForm.jsp">Doctor</a>
-                    <a href="#">Patient</a>
+                    <a href="SignUpPatient.jsp">Patient</a>
                     
                 </nav>
 
