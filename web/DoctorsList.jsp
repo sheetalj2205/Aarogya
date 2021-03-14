@@ -47,6 +47,9 @@ PreparedStatement st=con.prepareStatement(
             color:red;
             font-family: sans-serif;
         }    
+        
+        h4{ text-align: center;}
+    
         .tdtheme{
             width:20px;
             height:50px;
@@ -116,6 +119,8 @@ PreparedStatement st=con.prepareStatement(
 background-color:white;opacity: 0.9;
 border-radius: 20px;margin-left:60px">
 <br><br>
+<h4>Patient Registration Form</h4>
+
 <table width="100%" border="1" cellspacing="5" cellpadding="5">
                 <tr bgcolor="#0B81E1">
                     <td>First Name</td>

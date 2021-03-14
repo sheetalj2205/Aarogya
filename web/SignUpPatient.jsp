@@ -17,7 +17,11 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/889f7144ce.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link rel="stylesheet" href="./index.css">
+        <style>
+        h4{ text-align: center;}
+    </style>
     </head>
+    
     <body>
         <div class="mainheader">
             <div class="logo">
@@ -36,6 +40,7 @@
                 <a href="doctorRegistrationForm.jsp">Sign Up</a>
             </div>
         </div> <br><br><br><br><br>
+        <h4>Patient Registration Form</h4>
         <!-- Register Form -->
         <div class="form-wrapper">
             <!-- Form-wrapper only for positioning -->

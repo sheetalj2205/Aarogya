@@ -20,6 +20,11 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/889f7144ce.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link rel="stylesheet" href="./index.css">
+        <style>
+            h4{
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <div class="mainheader">
@@ -29,7 +34,7 @@
 
             <nav>
                 <a href="Homepage.jsp">home</a>
-                <a href="#about">About Us</a>
+<!--                <a href="#about">About Us</a>-->
                 <a href="DoctorsList.jsp">View Doctors</a>
                 <a href="SignUpPatient.jsp">Patient</a>
                 
@@ -41,7 +46,7 @@
         </div> <br><br><br><br><br>
         <!-- Register Form -->
         <div class="form-wrapper">
-            
+            <h4>Doctor Registration Form</h4>
             <!-- Form-wrapper only for positioning -->
             <form style="width:80%" action="signUpCode.jsp" method="post" class="fcorn-register container">
                 <p class="register-info">Note: All fields are required.</p>
