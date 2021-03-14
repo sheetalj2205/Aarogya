@@ -13,24 +13,41 @@ if(user.equals("Doctor")){
     PreparedStatement st=con.prepareStatement("select * from doctorinfo where aadharCardNumber=? and password=?");
     st.setString(1,aadharno);
     st.setString(2,password);
-    
+    ResultSet rs=st.executeQuery();
     if(rs.next())
     {
-    Cookie ck=new Cookie("websitename",id);
+    Cookie ck=new Cookie("websitename",aadharno);
     ck.setMaxAge(1000000);//time in seconds
     response.addCookie(ck);
-        session.setAttribute("CALL", id);
-          response.sendRedirect("AdminMenu.jsp");
+        session.setAttribute("CALL", aadharno);
+          response.sendRedirect("viewPatients.jsp");
     }
     else
     {%>
     <script>
         alert("Invalid id/password");
         </script>
-        <jsp:forward page="homepage.jsp"/>
+        <jsp:forward page="Homepage.jsp"/>
     <%}
 
 
+}
+
+if(user.equals("Patient"))
+{
+PreparedStatement st=con.prepareStatement(
+"select * from patientinfo where aadhar=? and password=?");
+    st.setString(1,aadharno);
+    st.setString(2,password);
+    ResultSet   rs=st.executeQuery();//select query
+    if(rs.next())
+    {
+          response.sendRedirect("viewprescription.jsp");
+    }
+    else
+    {
+        out.println("Invalid id/password");
+    }
 }
     
 
