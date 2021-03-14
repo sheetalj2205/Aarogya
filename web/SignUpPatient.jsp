@@ -40,45 +40,45 @@
                 <div class="row">
                     <p class="col-md-6 city-wrap">
                         <select name="District">
-                            <option name="city" value="0" selected disabled>City</option>
-                            <option name="cityIndore" value="1">Indore</option>
-                            <option name="cityBhopal" value="2">Bhopal</option>
-                            <option name="cityDhar" value="3">Dhar</option>
-                            <option name="cityBadwani" value="4">Badwani</option>
-                            <option name="cityVidhisha" value="5">Vidhisha</option>
-                            <option name="cityUjjain" value="6">Ujjain</option>
+                            <option  selected disabled>District</option>
+                            <option>Indore</option>
+                            <option>Bhopal</option>
+                            <option>Dhar</option>
+                            <option>Badwani</option>
+                            <option>Vidhisha</option>
+                            <option>Ujjain</option>
                         </select>
                     </p>
                     <p class="col-md-6 country-wrap">
                         <!-- Add more country name -->
                         <select name="city">
-                            <option name="town" value="0" selected disabled>Town</option>
-                            <option name="townSanavad" value="1">Sanavad</option>
-                            <option name="townSaugor" value="2">Saugor</option>
-                            <option name="townBhind" value="3">Bakaner</option>
-                            <option name="townManawar" value="4">Manawar</option>
+                            <option selected disabled>Town</option>
+                            <option>Sanavad</option>
+                            <option>Saugor</option>
+                            <option>Bakaner</option>
+                            <option>Manawar</option>
                         </select>
                     </p>
                     
                         
                         <p class="col-md-6 specialty-wrap">
                         <select name="specialityReq">
-                            <option name="specialty" value="0" selected disabled>Specialty Required</option>
-                            <option name="specialtyCardiology" value="1">Cardiology</option>
-                            <option name="specialtyOncology" value="2">Oncology </option>
-                            <option name="specialtyNeurology" value="3">Neurology</option>
-                            <option name="specialtyUrology" value="4">Urology</option>
-                            <option name="specialtySurgicalGastroenterology" value="5">Surgical Gastroenterology</option>
-                            <option name="specialtyMedicalGastroenterology" value="6">Medical Gastroenterology</option>
-                            <option name="specialtyObstetricsAndGynaecology" value="7">Obstetrics and Gynaecology</option>
-                            <option name="specialtyBoneMarrowTransplant" value="8">Bone Marrow Transplant</option>
-                            <option name="specialtyDentist" value="9">Dentist</option>
+                            <option selected disabled>Specialty Required</option>
+                            <option>Cardiology</option>
+                            <option>Oncology </option>
+                            <option>Neurology</option>
+                            <option>Urology</option>
+                            <option>Surgical Gastroenterology</option>
+                            <option>Medical Gastroenterology</option>
+                            <option>Obstetrics and Gynaecology</option>
+                            <option>Bone Marrow Transplant</option>
+                            <option>Dentist</option>
                         </select>
                         <p class="col-md-6 language-wrap">
                             <select name="lang">
-                                <option name="language" value="0" selected disabled>Language</option>
-                                <option name="languageEnglish" value="1">English</option>
-                                <option name="languageHindi" value="2">Hindi</option>
+                                <option selected disabled>Language</option>
+                                <option>English</option>
+                                <option>Hindi</option>
                             </select>
                             <span class="extern-type">Patient language.</span>
                         </p>
@@ -109,8 +109,8 @@
                         <input type="checkbox" name="termsAndConditions" id="register-agree" class="toggle-input">
                         <span class="toggle-handle"></span>
                     </label>
-                    <span class="info">Do you want Prescription on Mail</a>
-                    </span>
+                    <span class="info">Do you want Prescription on Mail</span>
+                    
                 </p>
                 <p class="register-submit"><input type="submit" name="submit" value="Register Now"></p>
             </form>

@@ -52,7 +52,7 @@
                 </div>
 <!--                <p><input type="email" name="email" placeholder="Email Address" required>-->
 <!--                    <span class="extern-type">We'll keep this private.</span>-->
-                </p>
+                
                 
                 <div class="row">
                     <p class="col-md-4"><input type="text" name="date" placeholder="Day (dd)" required></p>
@@ -63,43 +63,43 @@
                 <div class="row">
                     <p class="col-md-6 city-wrap">
                         <select name="cityName">
-                            <option name="city" value="0" selected disabled>City</option>
-                            <option name="cityIndore" value="1">Indore</option>
-                            <option name="cityBhopal" value="2">Bhopal</option>
-                            <option name="cityDhar" value="3">Dhar</option>
-                            <option name="cityBadwani" value="4">Badwani</option>
-                            <option name="cityVidhisha" value="5">Vidhisha</option>
-                            <option name="cityUjjain" value="6">Ujjain</option>
+                            <option selected disabled>City</option>
+                            <option>Indore</option>
+                            <option>Bhopal</option>
+                            <option>Dhar</option>
+                            <option>Badwani</option>
+                            <option>Vidhisha</option>
+                            <option>Ujjain</option>
                         </select>
                     </p>
                     <p class="col-md-6 country-wrap">
                         <!-- Add more country name -->
                         <select name="countryName">
-                            <option name="country" value="0" selected disabled>Country</option>
-                            <option name="countryIndia" value="1">India</option>
-                            <option name="countryNepal" value="2">Nepal</option>
-                            <option name="countryBangladesh" value="3">Bangladesh</option>
-                            <option name="countrySriLanka" value="4">Sri Lanka</option>
+                            <option selected disabled>Country</option>
+                            <option>India</option>
+                            <option>Nepal</option>
+                            <option>Bangladesh</option>
+                            <option>Sri Lanka</option>
                         </select>
                     </p>
                     <p class="col-md-6 specialty-wrap">
                         <select name="specialization">
-                            <option name="specialty" value="0" selected disabled>Specialty</option>
-                            <option name="specialtyCardiology" value="1">Cardiology</option>
-                            <option name="specialtyOncology" value="2">Oncology </option>
-                            <option name="specialtyNeurology" value="3">Neurology</option>
-                            <option name="specialtyUrology" value="4">Urology</option>
-                            <option name="specialtySurgicalGastroenterology" value="5">Surgical Gastroenterology</option>
-                            <option name="specialtyMedicalGastroenterology" value="6">Medical Gastroenterology</option>
-                            <option name="specialtyObstetricsAndGynaecology" value="7">Obstetrics and Gynaecology</option>
-                            <option name="specialtyBoneMarrowTransplant" value="8">Bone Marrow Transplant</option>
-                            <option name="specialtyDentist" value="9">Dentist</option>
+                            <option selected disabled>Specialty</option>
+                            <option>Cardiology</option>
+                            <option>Oncology </option>
+                            <option>Neurology</option>
+                            <option>Urology</option>
+                            <option>Surgical Gastroenterology</option>
+                            <option>Medical Gastroenterology</option>
+                            <option>Obstetrics and Gynaecology</option>
+                            <option>Bone Marrow Transplant</option>
+                            <option>Dentist</option>
                         </select>
                         <p class="col-md-6 language-wrap">
                             <select name="lang">
-                                <option name="language" value="0" selected disabled>Language</option>
-                                <option name="languageEnglish" value="1">English</option>
-                                <option name="languageHindi" value="2">Hindi</option>
+                                <option  selected disabled>Language</option>
+                                <option>English</option>
+                                <option>Hindi</option>
                             </select>
                             <span class="extern-type">Proficient languages.</span>
                         </p>
@@ -116,8 +116,7 @@
 
                             <p class="col-xs-6"><input type="text" name="linkedin" placeholder="Enter your LinkedIn profile link" required></p>
 
-                        </p>    
-                    </p>
+                        
                 </div>
                 <p><input type="password" name="password" placeholder="Password" required>
                     <span class="extern-type">Atleast 8 characters long.</span>
