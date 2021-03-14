@@ -973,9 +973,16 @@ output {
  * Registration Form
  * -------------------------------------
  */
+.register{
+     width: 100%;
+     height: 20vh;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+    
+    }
 .fcorn-register {
     font-family: "Source Sans Pro";
-    width: 550px;
+    width: 900px;
     margin: 0 auto;
     padding: 10px 35px;
     background: #fff;
@@ -1137,6 +1144,9 @@ output {
     -webkit-transform: translate(0, 1px);
     -ms-transform: translate(0, 1px);
     transform: translate(0, 1px);
+}
+.activeLink{
+    color: blue;
 }
 
 *{

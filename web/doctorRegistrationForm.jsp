@@ -15,25 +15,45 @@
         <meta charset="utf-8">
         <title>Aarogya | Doctor Form</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./static/css/doctorFormStyle.css">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        <header class="register">
+            <div class="mainheader">
+                <div class="logo">
+                    <img src="images/logo.png">
+                </div>
+
+                <nav>
+                    <a href="Homepage.jsp">home</a>
+                    <a class="activeLink" href="doctorRegistrationForm.jsp">Doctor</a>
+                    <a href="SignUpPatient.jsp">Patient</a>
+                    
+                </nav>
+
+                <div class="menubtn">
+                    <button>Apply</button>
+                </div>
+            </div>
+        </header>
         <!-- Register Form -->
         <div class="form-wrapper">
+            
             <!-- Form-wrapper only for positioning -->
-            <form action="#non" method="post" class="fcorn-register container">
+            <form action="signUpCode.jsp" method="post" class="fcorn-register container">
                 <p class="register-info">Note: All fields are required.</p>
                 <div class="row">
                     <p class="col-md-6"><input type="text" name="firstName" placeholder="First Name" required></p>
                     <p class="col-md-6"><input type="text" name="lastName" placeholder="Last Name" required></p>
                 </div>
-                <p><input type="email" name="email" placeholder="Email Address" required>
-                    <span class="extern-type">We'll keep this private.</span>
+                <div class="row">
+                    <p class="col-md-6"><input type="text" name="email" placeholder="Email" required></p>
+                    <p class="col-md-6"><input type="text" name="contact" placeholder="Contact Number" required></p>
+                </div>
+<!--                <p><input type="email" name="email" placeholder="Email Address" required>-->
+<!--                    <span class="extern-type">We'll keep this private.</span>-->
                 </p>
-                <p><input type="password" name="password" placeholder="Password" required>
-                    <span class="extern-type">Atleast 8 characters long.</span>
-                </p>
-                <p><input type="password" name="verifyPassword" placeholder="Verify Password" required></p>
+                
                 <div class="row">
                     <p class="col-md-4"><input type="text" name="date" placeholder="Day (dd)" required></p>
                     <p class="col-md-4"><input type="text" name="month" placeholder="Month (mm)" required></p>
@@ -42,7 +62,7 @@
                 </div>
                 <div class="row">
                     <p class="col-md-6 city-wrap">
-                        <select>
+                        <select name="cityName">
                             <option name="city" value="0" selected disabled>City</option>
                             <option name="cityIndore" value="1">Indore</option>
                             <option name="cityBhopal" value="2">Bhopal</option>
@@ -54,7 +74,7 @@
                     </p>
                     <p class="col-md-6 country-wrap">
                         <!-- Add more country name -->
-                        <select>
+                        <select name="countryName">
                             <option name="country" value="0" selected disabled>Country</option>
                             <option name="countryIndia" value="1">India</option>
                             <option name="countryNepal" value="2">Nepal</option>
@@ -63,7 +83,7 @@
                         </select>
                     </p>
                     <p class="col-md-6 specialty-wrap">
-                        <select>
+                        <select name="specialization">
                             <option name="specialty" value="0" selected disabled>Specialty</option>
                             <option name="specialtyCardiology" value="1">Cardiology</option>
                             <option name="specialtyOncology" value="2">Oncology </option>
@@ -76,7 +96,7 @@
                             <option name="specialtyDentist" value="9">Dentist</option>
                         </select>
                         <p class="col-md-6 language-wrap">
-                            <select>
+                            <select name="lang">
                                 <option name="language" value="0" selected disabled>Language</option>
                                 <option name="languageEnglish" value="1">English</option>
                                 <option name="languageHindi" value="2">Hindi</option>
@@ -90,22 +110,7 @@
 
                             <p class="col-md-4"><input name="aadharCardNumber" type="number" placeholder="Aadhar Card No." required></p>
 
-                            <p class="col-md-6">
-                                <form>
-                                    Upload your medical ID:
-                                    <input type="file" name="medicalID" id="medicalID">
-                                    <input type="submit" value="Upload Image" name="submitMedicalID" required>
-                                
-                            </p>
-
-                            <p class="col-md-6">
-                                <form action="upload.php" method="post" enctype="multipart/form-data">
-                                    Upload your personal photo:
-                                    <input type="file" name="photo" id="photo">
-                                    <input type="submit" value="Upload Image" name="submitPhoto" required>
-                                    <span class="extern-type">Professional clothing required.</span>
-                                
-                            </p>
+                           
 
                             <p class="col-xs-6"><input type="text" name="facebook" placeholder="Enter your Facebook profile link" required></p>
 
@@ -114,6 +119,10 @@
                         </p>    
                     </p>
                 </div>
+                <p><input type="password" name="password" placeholder="Password" required>
+                    <span class="extern-type">Atleast 8 characters long.</span>
+                </p>
+                <p><input type="password" name="verifyPassword" placeholder="Verify Password" required></p>
                 <p class="register-toggle">
                     <label for="register-agree" class="toggle-label" data-on="YES" data-off="NO">
                         <input type="checkbox" name="termsAndConditions" id="register-agree" class="toggle-input">
@@ -125,6 +134,7 @@
                 </p>
                 <p class="register-submit"><input type="submit" name="submit" value="Register Now"></p>
             </form>
+            
         </div>
     </body>
 </html>

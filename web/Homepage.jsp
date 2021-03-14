@@ -5,11 +5,16 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.PreparedStatement"%>
+<%@page import="java.sql.ResultSet"%>
+
 <!DOCTYPE html>
 <html>
     <head>
         <title></title>
-        <link rel="stylesheet" href="./static/css/doctorFormStyle.css">
+        <link rel="stylesheet" href="index.css">
         <link
             href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
             rel="stylesheet">
@@ -23,7 +28,7 @@
 
                 <nav>
                     <a href="#">home</a>
-                    <a href="#">Doctor</a>
+                    <a href="doctorRegistrationForm.jsp">Doctor</a>
                     <a href="#">Patient</a>
                     
                 </nav>

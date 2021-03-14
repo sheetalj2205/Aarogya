@@ -11,7 +11,7 @@
         <meta charset="utf-8">
         <title>Aarogya | Patient Form</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./static/css/doctorFormStyle.css">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <!-- Register Form -->
