@@ -77,6 +77,15 @@ PreparedStatement st=con.prepareStatement(
             background-repeat: no-repeat;
         }*/
     </style>
+
+    <head>
+        <link
+        href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/889f7144ce.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="./index.css">
+    </head>
     
     <body>
     
@@ -96,7 +105,7 @@ PreparedStatement st=con.prepareStatement(
             <div class="menubtn">
                 <a href="doctorRegistrationForm.jsp">Login</a>
             </div>
-        </div>
+        </div> <br><br><br><br><br>
 
         
         
@@ -105,7 +114,7 @@ background-color:white;opacity: 0.9;
 border-radius: 20px;margin-left:60px">
 <br><br>
 <table width="100%" border="1" cellspacing="5" cellpadding="5">
-                <tr bgcolor="pink">
+                <tr bgcolor="#0B81E1">
                     <td>First Name</td>
                     <td>Last Name</td>
                     <td>Email</td>
@@ -138,7 +147,7 @@ border-radius: 20px;margin-left:60px">
             
     
     </div>  
-
+    <br><br><br>
     <footer>
         <div class="footerContainer">
             <div class="sec aboutUs">
