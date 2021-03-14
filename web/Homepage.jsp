@@ -37,7 +37,7 @@
                 </nav>
 
                 <div class="menubtn">
-                    <a href="doctorRegistrationForm.jsp">Login</a>
+                    <a href="doctorRegistrationForm.jsp">Sign Up</a>
                 </div>
             </div>
 
@@ -48,7 +48,7 @@
                     <h1>
                         We The Best Doctors</h1>
                     <p>We are here for your care 24/7. Any help just call us.</p>
-                    <a>
+                    <a href="login.jsp">
                         Login
                     </a>
                 </section>
@@ -66,7 +66,7 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="section-title"><br>
-                            <div class="section-subtitle">About Us </div>
+                            <div class="section-subtitle" style="font-size:14px">About Us </div>
                             <h2 class="section-main-title">Aarogya - <strong style="color: #0B81E1"> Your Health, Our Priority </strong></h2>
     
                         </div>
@@ -83,9 +83,9 @@
                                 Some patients live in rural areas or small parts of town. It may take a considerable amount of time for these patients to receive medical treatment, especially in emergency cases.
                             </p>
                             <div class="hgt-20"></div>
-                            <div class="home-button">
+                            <!-- <div class="home-button">
                                 <button href="doctorRegistrationForm.jsp" class="aboutButton">Login</>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
     

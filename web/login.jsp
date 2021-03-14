@@ -28,23 +28,23 @@
             </nav>
 
             <div class="menubtn">
-                <a href="doctorRegistrationForm.jsp">Login</a>
+                <a href="doctorRegistrationForm.jsp">Sign Up</a>
             </div>
         </div>
         <!-- Register Form -->
         <div class="form-wrapper">
             <!-- Form-wrapper only for positioning -->
             <form action="loginCode.jsp" method="post" class="fcorn-register container">
-                <p class="register-info">Note: All fields are required.</p>
+                <p class="register-info">Login: </p>
                 <div class="row">
-                    <p class="col-md-6 city-wrap">
-                        <select name="loginas">
-                            <option  selected disabled>Login As</option>
-                            <option>Doctor</option>
-                            <option>Patient</option>
-                            
-                        </select>
-                    </p>
+                    
+                    <select name="loginas">
+                        <option  selected disabled>Login As</option>
+                        <option>Doctor</option>
+                        <option>Patient</option>
+                        
+                    </select>
+                    
                 </div>
                 <div class="row">
                     <p class="col-md-6"><input type="text" name="aadhar" placeholder="Aadhar Number" required></p>
