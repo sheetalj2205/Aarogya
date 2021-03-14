@@ -48,9 +48,9 @@
                     <h1>
                         We The Best Doctors</h1>
                     <p>We are here for your care 24/7. Any help just call us.</p>
-                    <button>
+                    <a>
                         Login
-                    </button>
+                    </a>
                 </section>
 
                 <section class="right-sec">

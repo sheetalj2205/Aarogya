@@ -11,7 +11,12 @@
         <meta charset="utf-8">
         <title>Aarogya | Patient Form</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="index.css">
+        <link
+        href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/889f7144ce.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="./index.css">
     </head>
     <body>
         <div class="mainheader">
@@ -30,7 +35,7 @@
             <div class="menubtn">
                 <a href="doctorRegistrationForm.jsp">Login</a>
             </div>
-        </div>
+        </div> <br><br><br><br><br>
         <!-- Register Form -->
         <div class="form-wrapper">
             <!-- Form-wrapper only for positioning -->
@@ -131,7 +136,7 @@
                 </p>
                 <p class="register-submit"><input type="submit" name="submit" value="Register Now"></p>
             </form>
-        </div>
+        </div> <br><br><br>
 
         <footer>
             <div class="footerContainer">
