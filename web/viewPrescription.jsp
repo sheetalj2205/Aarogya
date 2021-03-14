@@ -96,7 +96,7 @@ PreparedStatement st=con.prepareStatement(
             </nav>
 
             <div class="menubtn">
-                <a href="doctorRegistrationForm.jsp">Login</a>
+                <a href="Homepage.jsp">Log Out</a>
             </div>
         </div> <br><br><br><br><br>
 

@@ -107,8 +107,9 @@ PreparedStatement st=con.prepareStatement(
                 
             </nav>
 
+            
             <div class="menubtn">
-                <a href="doctorRegistrationForm.jsp">Sign Up</a>
+                <a href="Homepage.jsp">Log Out</a>
             </div>
         </div> <br><br><br><br><br>
 
@@ -165,7 +166,7 @@ border-radius: 20px;margin-left:60px">
             </div>
 
             <div class="row">
-                <p class="col-md-6"><textarea style="width:100%;" name="prescription" id="prescription" placeholder="Enter Prescription..."></textarea></p>
+                <p class="col-md-6"><textarea style="width:100%;padding: 10px;" name="prescription" id="prescription"placeholder="Enter Prescription..."></textarea></p>
             </div>
             
 
