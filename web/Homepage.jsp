@@ -84,7 +84,7 @@
                             </p>
                             <div class="hgt-20"></div>
                             <div class="home-button">
-                                <button href="doctorRegistrationForm.jsp" class="aboutButton">Login</>
+                                <button href="login.jsp" class="aboutButton">Login</>
                             </div>
                         </div>
                     </div>
