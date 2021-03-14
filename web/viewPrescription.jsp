@@ -89,7 +89,7 @@ PreparedStatement st=con.prepareStatement(
 
             <nav>
                 <a href="Homepage.jsp">home</a>
-                <a href="#about">About Us</a>
+<!--                <a href="#about">About Us</a>-->
                 <a href="DoctorsList.jsp">View Doctors</a>
                 <a href="SignUpPatient.jsp">Patient</a>
                 

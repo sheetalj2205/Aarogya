@@ -102,7 +102,7 @@ PreparedStatement st=con.prepareStatement(
 
             <nav>
                 <a href="Homepage.jsp">home</a>
-                <a href="#about">About Us</a>
+<!--                <a href="#about">About Us</a>-->
                 <a href="DoctorsList.jsp">View Doctors</a>
                 <a href="SignUpPatient.jsp">Patient</a>
                 
@@ -111,7 +111,7 @@ PreparedStatement st=con.prepareStatement(
             <div class="menubtn">
                 <a href="doctorRegistrationForm.jsp">Sign Up</a>
             </div>
-        </div> <br><br><br><br><br>
+        </div> <br><br><br>
 
         
         
@@ -119,7 +119,7 @@ PreparedStatement st=con.prepareStatement(
 background-color:white;opacity: 0.9;
 border-radius: 20px;margin-left:60px">
 <br><br>
-<h4>Patient Registration Form</h4>
+<h4>Our Doctors</h4>
 
 <table width="100%" border="1" cellspacing="5" cellpadding="5">
                 <tr bgcolor="#0B81E1">
