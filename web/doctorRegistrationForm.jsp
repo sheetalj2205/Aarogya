@@ -36,14 +36,14 @@
             </nav>
 
             <div class="menubtn">
-                <a href="doctorRegistrationForm.jsp">Login</a>
+                <a href="doctorRegistrationForm.jsp">Sign Up</a>
             </div>
         </div> <br><br><br><br><br>
         <!-- Register Form -->
         <div class="form-wrapper">
             
             <!-- Form-wrapper only for positioning -->
-            <form action="signUpCode.jsp" method="post" class="fcorn-register container">
+            <form style="width:80%" action="signUpCode.jsp" method="post" class="fcorn-register container">
                 <p class="register-info">Note: All fields are required.</p>
                 <div class="row">
                     <p class="col-md-6"><input type="text" name="firstName" placeholder="First Name" required></p>

@@ -61,6 +61,9 @@ PreparedStatement st=con.prepareStatement(
             background-color:white;
             color:black;
         }
+        td{
+            padding: 3px;
+        }
 /*        a1{
             text-decoration: none;
             color:white;
@@ -103,7 +106,7 @@ PreparedStatement st=con.prepareStatement(
             </nav>
 
             <div class="menubtn">
-                <a href="doctorRegistrationForm.jsp">Login</a>
+                <a href="doctorRegistrationForm.jsp">Sign Up</a>
             </div>
         </div> <br><br><br><br><br>
 
