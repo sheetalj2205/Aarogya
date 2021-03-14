@@ -63,6 +63,9 @@ PreparedStatement st=con.prepareStatement(
             background-color:white;
             color:black;
         }
+        td{
+            padding: 3px;
+        }
 /*        a1{
             text-decoration: none;
             color:white;
@@ -105,13 +108,13 @@ PreparedStatement st=con.prepareStatement(
             </nav>
 
             <div class="menubtn">
-                <a href="doctorRegistrationForm.jsp">Login</a>
+                <a href="doctorRegistrationForm.jsp">Sign Up</a>
             </div>
         </div> <br><br><br><br><br>
 
         
         
-        <div  style="width:90%;height: 200px;
+        <div  style="width:90%;;
 background-color:white;opacity: 0.9;
 border-radius: 20px;margin-left:60px">
 <br><br>
@@ -158,10 +161,11 @@ border-radius: 20px;margin-left:60px">
         <form action="addPresCode.jsp" method="post" class="fcorn-register container">
             <p class="register-info">Patient Prescription</p>
             <div class="row">
-                <p class="col-md-6 city-wrap">
-                    <p class="col-md-6"><input type="text" name="aadhar" placeholder="Aadhar Number" required></p>
-                </p>
+                <p class="col-md-6"><input type="text" name="aadhar" placeholder="Enter Aadhar Number" required></p>
             </div>
+<<<<<<< HEAD
+            <p>< name="prescription" id="prescription" placeholder="Enter Prescription..." cols="30" rows="30"></textarea>
+=======
             <div class="row">
                 <p class="col-md-6"><textarea name="prescription" id="prescription" cols="30" rows="10" placeholder="Enter Prescription..."></textarea></p>
             </div>
@@ -172,7 +176,10 @@ border-radius: 20px;margin-left:60px">
             
             <p class="register-submit"><input type="submit" name="submit" value="Submit"></p>
             
+>>>>>>> 783ced8ae57e810eb659664c271e648525d61dc5
                 
+            </p>
+            <p class="register-submit"><input type="submit" name="submit" value="Login Now"></p>
         </form>
     <br><br><br>
     <footer>
