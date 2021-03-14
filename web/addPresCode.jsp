@@ -3,7 +3,7 @@
 <%@page import="java.sql.ResultSet" %>
 <%
     String aadhar=request.getParameter("aadhar");
-    String Pres=request.getParameter("pres");
+    String Pres=request.getParameter("prescription");
     
     Class.forName("com.mysql.jdbc.Driver");
     Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/aarogya","root","root");

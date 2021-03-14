@@ -111,7 +111,7 @@ PreparedStatement st=con.prepareStatement(
 
         
         
-        <div  style="width:90%;height: 900px;
+        <div  style="width:90%;height: 200px;
 background-color:white;opacity: 0.9;
 border-radius: 20px;margin-left:60px">
 <br><br>
@@ -155,7 +155,7 @@ border-radius: 20px;margin-left:60px">
 
     <div class="form-wrapper">
         <!-- Form-wrapper only for positioning -->
-        <form action="loginCode.jsp" method="post" class="fcorn-register container">
+        <form action="addPresCode.jsp" method="post" class="fcorn-register container">
             <p class="register-info">Patient Prescription</p>
             <div class="row">
                 <p class="col-md-6 city-wrap">
@@ -170,7 +170,7 @@ border-radius: 20px;margin-left:60px">
                 <span class="extern-type">We'll keep this private.</span>
             </p>-->
             
-            <p class="register-submit"><input type="submit" name="submit" value="Login Now"></p>
+            <p class="register-submit"><input type="submit" name="submit" value="Submit"></p>
             
                 
         </form>

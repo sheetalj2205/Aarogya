@@ -102,7 +102,7 @@ PreparedStatement st=con.prepareStatement(
 
         
         
-        <div  style="width:90%;height: 900px;
+        <div  style="width:90%;height: 300px;
 background-color:white;opacity: 0.9;
 border-radius: 20px;margin-left:60px">
 <br><br>
