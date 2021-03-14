@@ -1,7 +1,7 @@
 <%@page import="java.sql.DriverManager" %>
 <%@page import="java.sql.PreparedStatement,java.sql.Connection" %>
 
-<%@page import="java.io.IOException"%>
+<%--<%@page import="java.io.IOException"%>
 
 <%@page import="java.util.*"%>
 
@@ -10,9 +10,9 @@
 <%@page import=" models.SendRequestBody"%>
 <%@page import=" models.SendResponseBody"%>
 <%@page import=" services.Courier"%>
-<%@page import="services.SendService" %>
+<%@page import="services.SendService" %>--%>
 <%
-    System.out.println(Courier.getAuthorizationHeader());
+    
     String firstname=request.getParameter("firstName");
     String lastname=request.getParameter("lastName");
     String Email=request.getParameter("email");
