@@ -1,6 +1,18 @@
 <%@page import="java.sql.DriverManager" %>
 <%@page import="java.sql.PreparedStatement,java.sql.Connection" %>
+
+<%@page import="java.io.IOException"%>
+
+<%@page import="java.util.*"%>
+
+<%@page import = "com.google.gson.Gson"%>
+
+<%@page import=" models.SendRequestBody"%>
+<%@page import=" models.SendResponseBody"%>
+<%@page import=" services.Courier"%>
+<%@page import="services.SendService" %>
 <%
+    System.out.println(Courier.getAuthorizationHeader());
     String firstname=request.getParameter("firstName");
     String lastname=request.getParameter("lastName");
     String Email=request.getParameter("email");
@@ -50,9 +62,13 @@ st1.setString(18,Vpswrd);
 
 st1.executeUpdate();
    con.close();
-   %>
+   
+    
+        
+     
+    
+    %>
     <script>
         alert("Successfully Registered");
         </script>
         <jsp:forward page="Homepage.jsp"/>
-    
