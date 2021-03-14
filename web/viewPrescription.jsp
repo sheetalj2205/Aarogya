@@ -1,3 +1,4 @@
+
 <%-- 
     Document   : DoctorsList
     Created on : 14 Mar, 2021, 12:16:27 PM
@@ -15,27 +16,17 @@
 Class.forName("com.mysql.jdbc.Driver");
 Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/aarogya","root","root");
 PreparedStatement st=con.prepareStatement(
-        "select * from patientinfo");
+        "select * from prescription");
     ResultSet   rs=st.executeQuery();//select query
     ArrayList list1=new ArrayList();
     ArrayList list2=new ArrayList();
-    ArrayList list3=new ArrayList();
-    ArrayList list4=new ArrayList();
-    ArrayList list5=new ArrayList();
-    ArrayList list6=new ArrayList();
-    ArrayList list7=new ArrayList();
-    ArrayList list8=new ArrayList();
+    
      
   while(rs.next())
     {
           list1.add(rs.getString(1));
           list2.add(rs.getString(2));
-          list3.add(rs.getString(3));
-          list4.add(rs.getString(4));
-          list5.add(rs.getString(8));
-          list6.add(rs.getString(9));
-          list7.add(rs.getString(10));
-          list8.add(rs.getString(12));
+          
           
     }
     
@@ -62,9 +53,6 @@ PreparedStatement st=con.prepareStatement(
         .tdtheme:hover{
             background-color:white;
             color:black;
-        }
-        td{
-            padding: 3px;
         }
 /*        a1{
             text-decoration: none;
@@ -108,26 +96,20 @@ PreparedStatement st=con.prepareStatement(
             </nav>
 
             <div class="menubtn">
-                <a href="doctorRegistrationForm.jsp">Sign Up</a>
+                <a href="doctorRegistrationForm.jsp">Login</a>
             </div>
         </div> <br><br><br><br><br>
 
         
         
-        <div  style="width:90%;;
+        <div  style="width:90%;height: 300px;
 background-color:white;opacity: 0.9;
 border-radius: 20px;margin-left:60px">
 <br><br>
 <table width="100%" border="1" cellspacing="5" cellpadding="5">
                 <tr bgcolor="#0B81E1">
-                    <td>First Name</td>
-                    <td>Last Name</td>
                     <td>Aadhar Number</td>
-                    <td>Contact Number</td>
-                    <td>District</td>
-                    <td>City</td>
-                    <td>Speciality Required</td>
-                    <td>Disease</td>
+                    <td>Prescription</td>
                     
                     
                     
@@ -139,12 +121,7 @@ border-radius: 20px;margin-left:60px">
                 <tr>
                     <td><%=list1.get(i)%></td>
                     <td><%=list2.get(i)%></td>
-                    <td><%=list3.get(i)%></td>
-                    <td><%=list4.get(i)%></td>
-                    <td><%=list5.get(i)%></td>
-                    <td><%=list6.get(i)%></td>
-                    <td><%=list7.get(i)%></td>
-                    <td><%=list8.get(i)%></td>
+                    
                 </tr>
                 <%}
                 %>
@@ -155,32 +132,6 @@ border-radius: 20px;margin-left:60px">
             
     
     </div>  
-
-    <div class="form-wrapper">
-        <!-- Form-wrapper only for positioning -->
-        <form action="addPresCode.jsp" method="post" class="fcorn-register container">
-            <p class="register-info">Patient Prescription</p>
-            <div class="row">
-                <p class="col-md-6"><input type="text" name="aadhar" placeholder="Enter Aadhar Number" required></p>
-            </div>
-<<<<<<< HEAD
-            <p>< name="prescription" id="prescription" placeholder="Enter Prescription..." cols="30" rows="30"></textarea>
-=======
-            <div class="row">
-                <p class="col-md-6"><textarea name="prescription" id="prescription" cols="30" rows="10" placeholder="Enter Prescription..."></textarea></p>
-            </div>
-            
-<!--                <p><input type="text" name="aadhar" placeholder="Aadhar Card Number" required>
-                <span class="extern-type">We'll keep this private.</span>
-            </p>-->
-            
-            <p class="register-submit"><input type="submit" name="submit" value="Submit"></p>
-            
->>>>>>> 783ced8ae57e810eb659664c271e648525d61dc5
-                
-            </p>
-            <p class="register-submit"><input type="submit" name="submit" value="Login Now"></p>
-        </form>
     <br><br><br>
     <footer>
         <div class="footerContainer">

@@ -42,7 +42,7 @@ PreparedStatement st=con.prepareStatement(
     ResultSet   rs=st.executeQuery();//select query
     if(rs.next())
     {
-          response.sendRedirect("viewprescription.jsp");
+          response.sendRedirect("viewPrescription.jsp");
     }
     else
     {
