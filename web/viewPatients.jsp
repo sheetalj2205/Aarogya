@@ -149,9 +149,31 @@ border-radius: 20px;margin-left:60px">
 
 <br><br><br>
 
-             <p class="col-xs-6"><input type="text" name="facebook" placeholder="Enter your Facebook profile link" required></p>
+            
     
     </div>  
+
+    <div class="form-wrapper">
+        <!-- Form-wrapper only for positioning -->
+        <form action="loginCode.jsp" method="post" class="fcorn-register container">
+            <p class="register-info">Patient Prescription</p>
+            <div class="row">
+                <p class="col-md-6 city-wrap">
+                    <p class="col-md-6"><input type="text" name="aadhar" placeholder="Aadhar Number" required></p>
+                </p>
+            </div>
+            <div class="row">
+                <p class="col-md-6"><textarea name="prescription" id="prescription" cols="30" rows="10" placeholder="Enter Prescription..."></textarea></p>
+            </div>
+            
+<!--                <p><input type="text" name="aadhar" placeholder="Aadhar Card Number" required>
+                <span class="extern-type">We'll keep this private.</span>
+            </p>-->
+            
+            <p class="register-submit"><input type="submit" name="submit" value="Login Now"></p>
+            
+                
+        </form>
     <br><br><br>
     <footer>
         <div class="footerContainer">
