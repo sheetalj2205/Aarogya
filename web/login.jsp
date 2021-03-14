@@ -31,20 +31,21 @@
                 <a href="doctorRegistrationForm.jsp">Sign Up</a>
             </div>
         </div>
+        <br>
         <!-- Register Form -->
         <div class="form-wrapper">
             <!-- Form-wrapper only for positioning -->
             <form action="loginCode.jsp" method="post" class="fcorn-register container">
                 <p class="register-info">Login: </p>
                 <div class="row">
-                    
+                    <p class="col-md-6 specialty-wrap">
                     <select name="loginas">
                         <option  selected disabled>Login As</option>
                         <option>Doctor</option>
                         <option>Patient</option>
                         
                     </select>
-                    
+                    </p>
                 </div>
                 <div class="row">
                     <p class="col-md-6"><input type="text" name="aadhar" placeholder="Aadhar Number" required></p>
@@ -58,7 +59,7 @@
                 <p class="register-submit"><input type="submit" name="submit" value="Login Now"></p>
                 
                     
-            </form><br>
+            </form><br><br>
         </div>
 
         <footer>

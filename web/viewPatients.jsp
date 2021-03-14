@@ -161,25 +161,20 @@ border-radius: 20px;margin-left:60px">
         <form action="addPresCode.jsp" method="post" class="fcorn-register container">
             <p class="register-info">Patient Prescription</p>
             <div class="row">
-                <p class="col-md-6"><input type="text" name="aadhar" placeholder="Enter Aadhar Number" required></p>
+                <p class="col-md-6"><input type="text"style="width:100%;" name="aadhar" placeholder="Enter Aadhar Number" required></p>
             </div>
-<<<<<<< HEAD
-            <p>< name="prescription" id="prescription" placeholder="Enter Prescription..." cols="30" rows="30"></textarea>
-=======
+
             <div class="row">
-                <p class="col-md-6"><textarea name="prescription" id="prescription" cols="30" rows="10" placeholder="Enter Prescription..."></textarea></p>
+                <p class="col-md-6"><textarea style="width:100%;" name="prescription" id="prescription" placeholder="Enter Prescription..."></textarea></p>
             </div>
             
-<!--                <p><input type="text" name="aadhar" placeholder="Aadhar Card Number" required>
-                <span class="extern-type">We'll keep this private.</span>
-            </p>-->
+
             
             <p class="register-submit"><input type="submit" name="submit" value="Submit"></p>
             
->>>>>>> 783ced8ae57e810eb659664c271e648525d61dc5
-                
-            </p>
-            <p class="register-submit"><input type="submit" name="submit" value="Login Now"></p>
+
+            
+         
         </form>
     <br><br><br>
     <footer>

@@ -86,9 +86,9 @@
                             <!-- <div class="home-button">
                                 <button href="doctorRegistrationForm.jsp" class="aboutButton">Login</>
                             </div> -->
-                            <div class="home-button">
+<!--                            <div class="home-button">
                                 <button href="login.jsp" class="aboutButton">Login</>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
     

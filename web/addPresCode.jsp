@@ -19,5 +19,5 @@ st1.executeUpdate();
     <script>
         alert("Successfully Registered");
         </script>
-        <jsp:forward page="viewPrescription.jsp"/>
+        <jsp:forward page="viewPatients.jsp"/>
     
