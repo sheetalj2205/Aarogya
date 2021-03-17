@@ -135,7 +135,7 @@
                     <h2>Contact Us</h2>
                     <ul class="info">
                         <li>
-                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <span><a href="#mapouter"><i class="fa fa-map-marker" aria-hidden="true"></i></a></span>
                             <span>
                                 Aarogya,<br>
                                 Indore, 452001,<br>
@@ -155,7 +155,16 @@
     
             </div>
         </footer>
-
+        
+        
+         <footer>
+            <div class="footerContainer">
+                <div class="sec aboutUs">
+                    <h2>Locate Us</h2><br>
+                     <div id="mapouter"><div class="gmap_canvas"><iframe width="1059" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=hukumchand%20colony,indore&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://embedgooglemap.net/maps/6"></a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:1059px;}</style><a href="https://www.embedgooglemap.net">location map for website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:1059px;}</style></div></div>
+                </div>
+            </div>
+         </footer>
         <div class="copyRight">
             <p>Copyright &copy; 2021 Aarogya - Your Health, Our Priority </p>
         </div>
